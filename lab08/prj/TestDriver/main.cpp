@@ -35,5 +35,9 @@ int main()
         wcout << L"Test case № " << i+1 << L"  іs  " << message <<  endl;
 
     }
+    wcin.clear();
+    wcin.ignore(numeric_limits <streamsize> :: max(), '\n');
+    wcin.get();
+    wcin.get();
     return 0;
 }
